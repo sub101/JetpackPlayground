@@ -1,4 +1,4 @@
-package com.example.jetpackplayground
+package com.example.jetpackplayground.Room
 
 import android.content.Context
 import androidx.room.Database

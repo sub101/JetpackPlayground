@@ -1,4 +1,4 @@
-package com.example.jetpackplayground
+package com.example.jetpackplayground.Room
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
