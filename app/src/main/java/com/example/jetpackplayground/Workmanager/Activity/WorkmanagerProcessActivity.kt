@@ -1,4 +1,4 @@
-package com.example.jetpackplayground.Workmanager
+package com.example.jetpackplayground.Workmanager.Activity
 
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +8,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.example.jetpackplayground.R
+import com.example.jetpackplayground.Workmanager.WorkManagerTest
 import com.example.jetpackplayground.Workmanager.WorkManagerTest.Companion.HowMuch
 
 class WorkmanagerProcessActivity :AppCompatActivity() {

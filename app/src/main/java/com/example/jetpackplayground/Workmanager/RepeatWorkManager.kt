@@ -15,7 +15,7 @@ class RepeatWorkManager(context: Context, workerParameters: WorkerParameters) :
         val format = SimpleDateFormat("hh:mm:ss")
         val currentTime = format.format(Date())
 
-        Log.d("WorkManager1", currentTime)
+        Log.d("RepeatWorkManager", currentTime)
 
         return Result.success()
     }

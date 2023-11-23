@@ -1,4 +1,4 @@
-package com.example.jetpackplayground.Workmanager
+package com.example.jetpackplayground.Workmanager.Activity
 
 import android.os.Bundle
 import android.util.Log
@@ -9,14 +9,16 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.example.jetpackplayground.R
+import com.example.jetpackplayground.Workmanager.WorkManagerA
+import com.example.jetpackplayground.Workmanager.WorkManagerB
 
 class WorkManagerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // SimpleThread().start()
-
+//         SimpleThread().start()
+//
 //        val workManagerA = OneTimeWorkRequestBuilder<WorkManagerA>().build()
 //        WorkManager.getInstance(this).enqueue(workManagerA)
 
@@ -60,6 +62,4 @@ class WorkManagerActivity : AppCompatActivity() {
 //        }
 //
 //    }
-
-
 //}
