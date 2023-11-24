@@ -17,8 +17,8 @@ class WorkManagerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//         SimpleThread().start()
-//
+         //SimpleThread().start()
+
 //        val workManagerA = OneTimeWorkRequestBuilder<WorkManagerA>().build()
 //        WorkManager.getInstance(this).enqueue(workManagerA)
 
@@ -52,14 +52,14 @@ class WorkManagerActivity : AppCompatActivity() {
     }
 }
 
-//class SimpleThread : Thread() {
-//    override fun run() {
-//        super.run()
-//
-//        for (i in 1..10) {
-//            Log.d("MainActivity", "$i")
-//            sleep(1000) // 1초 쉼
-//        }
-//
-//    }
-//}
+class SimpleThread : Thread() {
+    override fun run() {
+        super.run()
+
+        for (i in 1..10) {
+            Log.d("MainActivity", "$i")
+            sleep(1000) // 1초 쉼
+        }
+
+    }
+}
