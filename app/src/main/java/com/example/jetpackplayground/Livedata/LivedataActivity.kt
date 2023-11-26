@@ -21,9 +21,9 @@ class LivedataActivity : AppCompatActivity() {
             viewModel.plusLiveDataValue()
         }
 
-        viewModel.testMutableLiveData.observe(this, Observer {
+        viewModel.testLiveData.observe(this, Observer {
             findViewById<TextView>(R.id.textArea).text =
-                viewModel.testMutableLiveData.value.toString()
+                viewModel.testLiveData.value.toString()
         })
 
     }
